@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300..700&display=swap");
+@import "tailwindcss";
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   CUSTOM THEME CONFIGURATION - Tailwind theme extension
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@theme {
+  --font-sans: "Cinzel", sans-serif;
+  --font-garamond: "Cormorant Garamond", serif;
+
+  --color-dark-black: #030000;
+  --color-spring-green: #9fe943;
+  --color-dark-darkest: #212c00;
+  --color-dark-secondary: #1e2328;
+  --color-dark-text: #fff2ff;
+  --color-dark-light: #be1739;
+
+  --color-light-black: #d1d5db;
+  --color-light-darkest: #f9fafb;
+  --color-light-secondary: #e5e7eb;
+  --color-light-light: #d8dee9;
+  --color-light-lighter: #bfdbfe;
+  --color-light-text: #1f2937;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   CUSTOM UTILITY CLASSES - Reusable CSS utilities
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@utility smooth-transition {
+  transition: all 0.3s ease-in-out;
+}
